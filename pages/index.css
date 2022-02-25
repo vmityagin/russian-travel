@@ -40,3 +40,48 @@
   text-decoration-line: none;
   color: #FFFFFF;
 }
+
+.lead {
+  width: 984px;
+  margin: 56px auto 0;
+}
+
+.lead__title {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.lead__subtitle {
+  margin: 32px auto 64px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;
+  box-sizing: border-box;
+}
+
+.lead__caption {
+  margin: 8px 0 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
