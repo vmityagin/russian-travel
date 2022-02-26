@@ -3,7 +3,7 @@
 @import url('../vendor/fonts/inter.css');
 
 .page {
-  max-width: 1280px;
+  min-width: 1280px;
   /* Макет для разрешений 1280px */
   margin: 0 auto;
   /* выше для экранов больше 1280px отцентрировал весь контент */
