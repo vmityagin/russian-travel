@@ -211,7 +211,7 @@
 
 .cover {
   width: 1184px;
-  margin: 92px auto;
+  margin: 92px auto 0;
 }
 
 .cover__overlay {
@@ -271,5 +271,41 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  color: #FFFFFF;
+}
+
+.footer {
+  max-width: 1184px;
+  margin: 92px auto 0;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5,minmax(min-content, max-content));
+  grid-gap: 18px;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.footer__copyright {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
   color: #FFFFFF;
 }
