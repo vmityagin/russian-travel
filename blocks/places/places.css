@@ -3,7 +3,7 @@
   margin: 92px auto 0;
   display: grid;
   grid-template: repeat(1, minmax(auto, 984px));
-  gap: 80px;
+  gap: 82px;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
